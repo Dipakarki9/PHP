@@ -69,8 +69,123 @@ if($x == 1000 && $y == 50){
 }
     */
 
-# 6. String Opeartors(.,.=)
+ /* 6. String Opeartors(.,.=)
 $txt = "Hello";
 $txt1 = "world";
 echo $txt . $txt1;
+
+
+*/
+# conditional statement
+ /* if statement
+ $x = 15;
+if ($x >= 15){
+    echo "You are teenage";
+}
+*/
+
+#if else statement
+ /* $color = "blue";
+if($color == "red")
+    {
+        echo "color is blue";
+    }
+    else{
+         echo "color is red";
+    }
+
+
+    $TotalMark = 100;
+    if($TotalMark==100){
+        echo"You scored A+";
+    }
+    else{
+        echo"You scored B+";
+    }
+
+    */
+  #if else if statement
+  /*
+  $t = date("H");
+  if($t < "2"){
+    echo"Good Morning";
+  }
+  elseif($t < "20"){
+    echo"Good day";
+  }
+  else{
+    echo"Have a good night!";
+  }
+
+  #Another Example
+  
+  $mark = 100;
+  if($mark == 100){
+    echo"You are briliant student";
+
+  } elseif($mark >= 80){
+    echo"You are average";
+
+  }else{
+    echo"Try Better for improvement";
+  }
+
+  */
+
+  # Nested if else statement
+/*
+  $a = 20;
+  if($a > 15){
+    echo"nice";
+   if($a > 20){
+    echo "It is greater";
+  }
+  else{
+    echo" I am here to execute code";
+  }
+  }
+
+  */
+
+  # Switch statement
+  $favcolor = "red";
+
+switch ($favcolor) {
+  case "red":
+    echo "Your favorite color is red!";
+    break;
+  case "blue":
+    echo "Your favorite color is blue!";
+    break;
+  case "green":
+    echo "Your favorite color is green!";
+    break;
+  default:
+    echo "Your favorite color is neither red, blue, nor green!";
+}
+
+
+$day = 5;
+for ($day = 1; $day <= 5; $day++) {
+
+switch ($day){
+    case 1:
+        echo "Today is sunday";
+        break;
+        case 2: 
+            echo"Today is Monday";
+            break;
+            case 3:
+                echo"Today is Tuesday";
+                break;
+                case 4:
+                    echo"Today is wednesday";
+                    break;
+                    case 5:
+                        echo "Today is thursaday";
+                        break;
+                        default:
+                        echo"5 days of name";
+}
+}
 ?>
