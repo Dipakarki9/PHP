@@ -148,6 +148,7 @@ if($color == "red")
   */
 
   # Switch statement
+  /*
   $favcolor = "red";
 
 switch ($favcolor) {
@@ -187,5 +188,44 @@ switch ($day){
                         default:
                         echo"5 days of name";
 }
+}
+
+*/
+
+# LOOP
+# For loop
+/*
+for($i=0; $i<=15; $i++ ){
+  echo "The number is: $i <br>";
+}
+
+for ($j=0; $j<=10; $j++){
+  if($j==4) break;
+  echo "The number is: $j <br>";
+}
+  */
+
+#While loop
+/*
+$i = 1;
+while($i < 6){
+  echo $i;
+  $i++;
+}
+
+*/
+
+#Do while loop
+$i = 8;
+do{
+  echo $i;
+  $i++;
+
+}while($i<6);
+
+#FOR each loop
+$colors = array("red","green","blue");
+foreach($colors as $value){
+  echo "$value <br>";
 }
 ?>
